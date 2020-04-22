@@ -1,0 +1,31 @@
+body{
+    padding-top: 75px;
+}
+.sombra{
+    box-shadow: 0 6px 12px 1px rgba(0, 0, 0 ,.05);
+    /* box-shadow: 0 4px 8px 0px rgba(0, 0, 0 ,.05); */
+}
+.icones-sc{
+    height: 100px;
+}
+#home-citacao{
+    background: url('../img/bg-quote.jpg') center center;
+    background-size: cover;
+}
+@media (max-width: 767px){
+    #home-citacao .display-4{
+      font-size: 2.5rem;
+    }
+    body{
+       padding-top: 0px;
+    }
+    .fixed-top{
+        position: relative;
+    }
+}
+.lista-plano li{
+    padding: 1rem;
+}
+.lista-plano li + li{
+    border-top: 1px solid #dadada;
+}
